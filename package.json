@@ -1,0 +1,54 @@
+{
+  "name": "@immutabl3/location",
+  "version": "1.0.0",
+  "description": "centralize the routes in your SPA",
+  "main": "index.js",
+  "scripts": {
+    "test": "node -r esm tests",
+    "debug": "node -r esm --inspect-brk tests",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/immutabl3/location.git"
+  },
+  "engines": {
+    "node": "11.3.0",
+    "npm": "6.5.0"
+  },
+  "keywords": [
+    "query-string",
+    "url-pattern",
+    "location",
+    "url",
+    "spa"
+  ],
+  "author": "Immutable, LLC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/immutabl3/location/issues"
+  },
+  "homepage": "https://github.com/immutabl3/location#readme",
+  "dependencies": {
+    "query-string": "^6.2.0",
+    "url-pattern": "^1.0.3"
+  },
+  "devDependencies": {
+    "lodash-es": "^4.17.11",
+    "esm": "^3.0.84",
+    "tape": "^4.9.1",
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-transform-runtime": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/runtime": "^7.1.2",
+    "autoprefixer": "^9.3.1",
+    "babel-loader": "^8.0.4",
+    "benchmark": "^2.1.4",
+    "compression-webpack-plugin": "^2.0.0",
+    "css-mqpacker": "^7.0.0",
+    "date-fns": "^1.29.0",
+    "dotenv": "^6.0.0",
+    "webpack": "^4.22.0",
+    "webpack-cli": "^3.1.2"
+  }
+}
