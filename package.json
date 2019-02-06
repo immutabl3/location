@@ -1,6 +1,6 @@
 {
   "name": "@immutabl3/location",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "centralize the routes in your SPA",
   "main": "index.js",
   "scripts": {
